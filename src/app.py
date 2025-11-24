@@ -77,6 +77,14 @@ activities = {
     }
 }
 
+# Time-sensitive activity requested by students
+activities["GitHub Skills"] = {
+    "description": "Practical coding and collaboration workshops with GitHub resources",
+    "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+    "max_participants": 25,
+    "participants": []
+}
+
 
 @app.get("/")
 def root():
